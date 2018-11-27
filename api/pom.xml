@@ -7,7 +7,11 @@
 
     <artifactId>api</artifactId>
 
-
+    <parent>
+        <artifactId>springboot-all</artifactId>
+        <groupId>com.fcc</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <dependencies>
         <!-- spring boot start -->
@@ -15,16 +19,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.fcc</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
