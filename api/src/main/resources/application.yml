@@ -31,3 +31,7 @@ spring:
     username: root
     password: root
     driverClassName: com.mysql.jdbc.Driver
+
+
+server:
+  port: 80

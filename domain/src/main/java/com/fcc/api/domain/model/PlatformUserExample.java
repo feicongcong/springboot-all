@@ -1,4 +1,4 @@
-package com.fcc.domain.model;
+package com.fcc.api.domain.model;
 
 import java.util.ArrayList;
 import java.util.Date;

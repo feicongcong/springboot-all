@@ -1,7 +1,8 @@
-package com.fcc.domain.mapper;
+package com.fcc.api.domain.mapper;
 
-import com.fcc.domain.model.PlatformUser;
-import com.fcc.domain.model.PlatformUserExample;
+import com.fcc.api.domain.model.PlatformUserExample;
+import com.fcc.api.domain.model.PlatformUser;
+
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

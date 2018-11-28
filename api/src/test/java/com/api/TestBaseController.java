@@ -1,9 +1,5 @@
 package com.api;
 
-import com.fcc.ApiBoot;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.context.WebApplicationContext;
-
 /**
  * @Description:
  * @Author: CC.F

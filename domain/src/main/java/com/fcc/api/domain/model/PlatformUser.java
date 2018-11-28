@@ -1,4 +1,4 @@
-package com.fcc.domain.model;
+package com.fcc.api.domain.model;
 
 import java.io.Serializable;
 import java.util.Date;
