@@ -11,6 +11,7 @@
         <module>common</module>
         <module>api</module>
         <module>domain</module>
+        <module>mvcWar</module>
     </modules>
 
     <!--使用maven分模块管理，都会有一个父级项目，pom文件一个重要的属性就是packaging（打包类型）-->
